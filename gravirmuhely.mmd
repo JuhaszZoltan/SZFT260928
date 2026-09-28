@@ -1,0 +1,36 @@
+erDiagram
+    termek ||--o{ rendeles : "termekid"
+    ugyfel ||--o{ rendeles : "ugyfelid"
+
+    termek {
+        int(11) termekid PK
+        varchar(100) tnev
+        varchar(30) anyag
+        varchar(50) technologia
+        smallint(5)_unsigned keszlet
+        tinyint(1) ajandekdobozos
+        varchar(300) kepurl
+        int(10)_unsigned egysegar
+    }
+
+    rendeles {
+        int(11) rendelesid PK
+        int(11) ugyfelid FK
+        int(11) termekid FK
+        datetime rendelesido
+        smallint(5)_unsigned mennyiseg
+        int(10)_unsigned rendelesi_egysegar
+        date atveteldatum
+        varchar(500) megjegyzes
+    }
+
+    ugyfel {
+        int(11) ugyfelid PK
+        varchar(100) nev
+        varchar(150) email UK
+        varchar(20) telefon UK
+        char(4) iranyitoszam
+        varchar(50) telepules
+        varchar(150) cim
+        datetime regisztracio
+    }
