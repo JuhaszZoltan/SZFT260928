@@ -74,8 +74,8 @@ erDiagram
     ugyfel {
         int(11) ugyfelid PK "NOT NULL, AUTO_INCREMENT"
         varchar(100) nev "NOT NULL"
-        varchar(150) email UNIQUE "NOT NULL"
-        varchar(20) telefon UNIQUE "NULL"
+        varchar(150) email UK "NOT NULL"
+        varchar(20) telefon UK "NULL"
         char(4) iranyitoszam "NOT NULL"
         varchar(50) telepules "NOT NULL"
         varchar(150) cim "NOT NULL"
