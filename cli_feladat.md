@@ -37,7 +37,7 @@ Az adattagok a következők:
 - határozza meg, hogy mely termékekre hány darab megrendelés érkezett, írja ki azokat és a rájuk vonatkozó megrendelések számát, ahol egynél több megrendelés volt
 - határozza meg, hogy ki adta le a legalacsonyabb árú hokogfúvásos technikával készített megrendelést
 
-### minta:
+### minta[^3]:
 ```plaintext
 1. feladat: A megrendelések száma: 20 db
 2. feladat: Üveg anyagú tárgy gravírozására 3 alkalommal adtak le megrendelést.
@@ -57,5 +57,6 @@ Az adattagok a következők:
         - Lengyel Csilla
 ```
 ---
-[^1]: a másodperc (`:ss`) mindig nulla (`:00`)
-[^2]: a mintában látható formátumtól eltérhet
+[^1]: a másodperc (`:ss`) mindig nulla (`:00`) - mind a kiírásból, mind a tárolásból szükség szerint elhagyható
+[^2]: a mintában látható formátumtól eltérhet, a lényeg, hogy minden adattak jelennyen meg
+[^3]: a minta csak a számozott feladatokhoz van (kb. ennyi reális a VZ időkeret és pontszám-súlyozás szempontjából)
