@@ -2,7 +2,7 @@
 
 > Ebben a feladatban az [ajándéktárgyak gravírozásával](https://en.wikipedia.org/wiki/Engraving) foglalkozó kisvállalkozás megrendelési adataival kell dolgoznia.
 
-A `gravirmuhely.csv` pontosvesszővel (`;`) tagolt `UTF-8`-as karakterkódolású állomány. Az állomány első pár sora:
+A `gravirmuhely.csv` vesszővel (`,`) tagolt `UTF-8`-as karakterkódolású állomány. Az állomány első pár sora:
 
 ![1. ábra: forrásfile eleje](https://raw.githubusercontent.com/JuhaszZoltan/SZFT260928/refs/heads/main/imgs/figures/cli_fig_01.png)
 
