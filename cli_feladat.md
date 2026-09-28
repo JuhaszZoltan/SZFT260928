@@ -4,7 +4,7 @@
 
 A `gravirmuhely.csv` pontosvesszővel (`;`) tagolt `UTF-8`-as karakterkódolású állomány. Az állomány első pár sora:
 
-![1. ábra: forrásfile eleje](imgs\figures\cli_fig_01.png)
+![1. ábra: forrásfile eleje](https://github.com/JuhaszZoltan/SZFT260928/blob/main/imgs/figures/cli_fig_01.png)
 
 Az adattagok a következők:
 | adattag | típus/formátum |
@@ -16,7 +16,6 @@ Az adattagok a következők:
 | rendelés ára | egész szám |
 | rendelési idő | dátum-idő `yyyy-MM-dd HH:mm:ss` formátumban [^1] |
 | átvételi dátum | dátum `yyyy-MM-dd` formátumban |
-
 
 -  Készítsen olyan projektet `EngravingWorkshopCLI` néven, mely rendszerkonzolos vagy terminálos kimenet megjelenítésére alkalmas!
 -  Hozzon létre egy `Order` nevű osztályt, amely egy-egy megrendelés adatait írja le a forrásállomány szerkezetének megfelelően!
@@ -57,10 +56,6 @@ Az adattagok a következők:
         - Major Dániel
         - Lengyel Csilla
 ```
-
-
 ---
-
 [^1]: a másodperc (`:ss`) mindig nulla (`:00`)
-
 [^2]: a mintában látható formátumtól eltérhet
