@@ -20,7 +20,7 @@ Az adattagok a következők:
 -  Készítsen olyan projektet `EngravingWorkshopCLI` néven, mely rendszerkonzolos vagy terminálos kimenet megjelenítésére alkalmas!
 -  Hozzon létre egy `Order` nevű osztályt, amely egy-egy megrendelés adatait írja le a forrásállomány szerkezetének megfelelően!
 -  Bírálja felül az `Order` osztály `.ToString()` virtuális metódusát, hogy hívás esetén a rendelés minden részletét tartalmazó karakterlánccal térjen vissza[^2]!
--  Olvassa be a `gravirmuhely.csv` tartalmát egy `Order` osztálypéldányokat tartalmazó kollekcióba, a további problémákat ezen kollekció felhasználásával oldja meg! **Ügyeljen rá, hogy az első sor fejlécelemeket tartalmaz!**
+-  Olvassa be a `gravirmuhely.csv` tartalmát egy `Order` osztálypéldányokat tartalmazó kollekcióba, a további problémákat ezen kollekció felhasználásával oldja meg! **Ügyeljen rá, hogy az első sor a fejlécet tartalmazza!**
 ---
 1. írja ki a megrendelések számát!
 2. írja ki, hogy hány alkalommal adtak le megrendelést üveg anyagú tárgy gravírozására!
