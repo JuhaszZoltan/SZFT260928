@@ -8,7 +8,7 @@ A `gravirmuhely.csv` vesszővel (`,`) tagolt `UTF-8`-as karakterkódolású áll
 
 Az adattagok a következők:
 | adattag | típus/formátum |
-| ----------- | ----------- |
+| ------- | -------------- |
 | megrendelő neve | karakterlánc |
 | termék megnevezése | karakterlánc |
 | termék anyaga | karakterlánc |
@@ -18,7 +18,7 @@ Az adattagok a következők:
 | átvételi dátum | dátum `yyyy-MM-dd` formátumban |
 
 -  Készítsen olyan projektet `EngravingWorkshopCLI` néven, mely rendszerkonzolos vagy terminálos kimenet megjelenítésére alkalmas!
--  Hozzon létre egy `Order` nevű osztályt, amely egy-egy megrendelés adatait írja le a forrásállomány szerkezetének megfelelően!
+-  Definiáljon saját osztályt `Order` néven, amely egy-egy megrendelési tétel felépítését írja le a leírtaknak megfelelően!
 -  Bírálja felül az `Order` osztály `.ToString()` virtuális metódusát, hogy hívás esetén a rendelés minden részletét tartalmazó karakterlánccal térjen vissza[^2]!
 -  Olvassa be a `gravirmuhely.csv` tartalmát egy `Order` osztálypéldányokat tartalmazó kollekcióba, a további problémákat ezen kollekció felhasználásával oldja meg! **Ügyeljen rá, hogy az első sor a fejlécet tartalmazza!**
 ---
