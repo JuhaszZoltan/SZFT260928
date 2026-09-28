@@ -4,7 +4,7 @@
 
 A `gravirmuhely.csv` pontosvesszővel (`;`) tagolt `UTF-8`-as karakterkódolású állomány. Az állomány első pár sora:
 
-![1. ábra: forrásfile eleje](https://github.com/JuhaszZoltan/SZFT260928/blob/main/imgs/figures/cli_fig_01.png)
+![1. ábra: forrásfile eleje](https://raw.githubusercontent.com/JuhaszZoltan/SZFT260928/refs/heads/main/imgs/figures/cli_fig_01.png)
 
 Az adattagok a következők:
 | adattag | típus/formátum |
