@@ -3,34 +3,34 @@ erDiagram
     ugyfel ||--o{ rendeles : "ugyfelid"
 
     termek {
-        int(11) termekid PK
-        varchar(100) tnev
-        varchar(30) anyag
-        varchar(50) technologia
-        smallint(5)_unsigned keszlet
-        tinyint(1) ajandekdobozos
-        varchar(300) kepurl
-        int(10)_unsigned egysegar
+        int(11) termekid PK "NOT NULL, AUTO_INCREMENT"
+        varchar(100) tnev "NOT NULL"
+        varchar(30) anyag "NOT NULL"
+        varchar(50) technologia "NULL"
+        smallint(5) keszlet "NOT NULL, DEFAULT 0"
+        tinyint(1) ajandekdobozos "NULL"
+        varchar(300) kepurl "NULL"
+        int(10) egysegar "NOT NULL"
     }
 
     rendeles {
-        int(11) rendelesid PK
-        int(11) ugyfelid FK
-        int(11) termekid FK
-        datetime rendelesido
-        smallint(5)_unsigned mennyiseg
-        int(10)_unsigned rendelesi_egysegar
-        date atveteldatum
-        varchar(500) megjegyzes
+        int(11) rendelesid PK "NOT NULL, AUTO_INCREMENT"
+        int(11) ugyfelid FK "NOT NULL"
+        int(11) termekid FK "NOT NULL"
+        datetime rendelesido "NOT NULL, DEFAULT current_timestamp()"
+        smallint(5) mennyiseg "NOT NULL"
+        int(10) rendelesi_egysegar "NOT NULL"
+        date atveteldatum "NULL"
+        varchar(500) megjegyzes "NULL"
     }
 
     ugyfel {
-        int(11) ugyfelid PK
-        varchar(100) nev
-        varchar(150) email UK
-        varchar(20) telefon UK
-        char(4) iranyitoszam
-        varchar(50) telepules
-        varchar(150) cim
-        datetime regisztracio
+        int(11) ugyfelid PK "NOT NULL, AUTO_INCREMENT"
+        varchar(100) nev "NOT NULL"
+        varchar(150) email UK "NOT NULL"
+        varchar(20) telefon UK "NULL"
+        char(4) iranyitoszam "NOT NULL"
+        varchar(50) telepules "NOT NULL"
+        varchar(150) cim "NOT NULL"
+        datetime regisztracio "NOT NULL, DEFAULT current_timestamp()"
     }
