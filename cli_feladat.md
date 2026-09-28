@@ -2,7 +2,7 @@
 
 > Ebben a feladatban az [ajándéktárgyak gravírozásával](https://en.wikipedia.org/wiki/Engraving) foglalkozó kisvállalkozás megrendelési adataival kell dolgoznia.
 
-A `gravmuhely.csv` pontosvesszővel (`;`) tagolt `UTF-8`-as karakterkódolású állomány. Az állomány első pár sora:
+A `gravirmuhely.csv` pontosvesszővel (`;`) tagolt `UTF-8`-as karakterkódolású állomány. Az állomány első pár sora:
 
 ![1. ábra: forrásfile eleje](imgs\figures\cli_fig_01.png)
 
@@ -21,7 +21,7 @@ Az adattagok a következők:
 -  Készítsen olyan projektet `EngravingWorkshopCLI` néven, mely rendszerkonzolos vagy terminálos kimenet megjelenítésére alkalmas!
 -  Hozzon létre egy `Order` nevű osztályt, amely egy-egy megrendelés adatait írja le a forrásállomány szerkezetének megfelelően!
 -  Bírálja felül az `Order` osztály `.ToString()` virtuális metódusát, hogy hívás esetén a rendelés minden részletét tartalmazó karakterlánccal térjen vissza[^2]!
--  Olvassa be a `gravmuhely.csv` tartalmát egy `Order` osztálypéldányokat tartalmazó kollekcióba, a további problémákat ezen kollekció felhasználásával oldja meg! **Ügyeljen rá, hogy az első sor fejlécelemeket tartalmaz!**
+-  Olvassa be a `gravirmuhely.csv` tartalmát egy `Order` osztálypéldányokat tartalmazó kollekcióba, a további problémákat ezen kollekció felhasználásával oldja meg! **Ügyeljen rá, hogy az első sor fejlécelemeket tartalmaz!**
 ---
 1. írja ki a megrendelések számát!
 2. írja ki, hogy hány alkalommal adtak le megrendelést üveg anyagú tárgy gravírozására!
